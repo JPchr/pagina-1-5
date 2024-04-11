@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Parrafo1{
+
+    color: brown;
+    font-size: 25px;
+    background-color: aquamarine;
+
+}
+body{
+
+    background-color: #ffebcd;
+
+}
+.formregis{
+
+    width: 400px;
+    padding: 50px;
+    background-color: rgb(153, 223, 250);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 15px;
+
+}
+.formregis h1{
+
+    font-size: 36px;
+    color: rgb(13, 37, 250);
+
+}
+.inputs{
+
+    width: 400px;
+    padding: 8px;
+    border-bottom: 8px;
+    background-color: rgb(225, 250, 255);
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(55, 0, 253);
+}
+
+.enviar{
+
+    margin-left: 150px;
+    font-size: 25px;
+    background-color: rgb(38, 70, 253);
+    border-radius: 8px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <nav>
+    <a href="index.html">Inicio</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="servicios.html">Servicios</a>
+    <a href="registro.html">Registro</a>
+    <a href="contactos.html">Contactos</a>
+    </nav>
+
+    <form class="formregis" action="resultados.html" method="post">
+        <h1 >Pagina de Registro</h1>
+        <label for="nom">Nombre:</label>
+        <input class="inputs" id="nom" type="text" name="nom" placeholder="Nombre"/>
+
+        <label for="ape">Apellidos:</label>
+        <input class="inputs" id="ape" type="text" name="ape" placeholder="Apellidos"/>
+        
+        <label for="gen">Genero:</label>
+        <input class="genero" type="radio" name="gen" id="gen" />
+        <label for="gen">Hombre</label>
+        <input class="genero" type="radio" name="gen" id="gen" />
+        <label for="genero">Mujer</label>
+
+        <label class="" for="cor">Correo:</label>
+        <input class="inputs" type="email" name="cor" id="cor" value="" placeholder="Correo"/>
+        
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input class="inputs" type="date" name="fecha" id="fecha" />
+
+        <label for="dir">Dirección:</label>
+        <textarea class="inputs" name="dir" id="dir" cols="50" rows="5"></textarea>
+
+        <input class="enviar" type="submit" value="Enviar"/>
+    </form>
+</body>
+</html>
