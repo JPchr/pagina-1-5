@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
     <nav>
@@ -13,6 +14,22 @@
     <a href="registro.html">Registro</a>
     <a href="contactos.html">Contactos</a>
     </nav>
-    <h1>Pagina de Contactos</h1>
+
+    <form class="formregisCon" action="resultados.html" method="post" style="margin: 0; padding: 10;">
+        <h1>Contactanos</h1>
+        <label for="nom">Nombre</label>
+        <input class="inputs" id="nom" type="text" name="nom" placeholder="Nombre"/>
+
+        <label for="ape">Presupuesto</label>
+        <input class="inputs" id="ape" type="text" name="ape" placeholder="Apellidos"/>
+        
+        <label class="" for="cor">Correo electronico</label>
+        <input class="inputs" type="email" name="cor" id="cor" value="" placeholder="Correo"/>
+        
+        <label for="dir">Mensaje</label>
+        <textarea class="inputs" name="dir" id="dir" cols="50" rows="5"></textarea>
+
+        <input class="enviar" type="submit" value="Enviar" style="margin: 0;"/>
+    </form>
 </body>
 </html>
